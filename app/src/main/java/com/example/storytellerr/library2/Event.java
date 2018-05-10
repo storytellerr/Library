@@ -7,9 +7,9 @@ import android.util.Log;
  */
 
 public class Event {
-    public final String tag="hello";
+    public static final String tag="hello";
 
-    public void Eventlog(String  s){
+    public static void Eventlog(String  s){
         Log.d(tag,s);
     }
 }
